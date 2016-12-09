@@ -54,7 +54,7 @@ export interface TableProps<T> {
   size?: 'default' | 'small';
   dataSource?: T[];
   columns?: ColumnProps<T>[];
-  rowKey?: string | ((record: T, index: number) => string);
+  rowKey?: string | ((record: T) => string);
   rowClassName?: (record: T, index: number) => string;
   expandedRowRender?: any;
   defaultExpandedRowKeys?: string[];
@@ -176,7 +176,7 @@ export default class Table<T> extends React.Component<TableProps<T>, any> {
     }
     return this.getFlatData()
       .filter(item => this.getCheckboxPropsByItem(item).defaultChecked)
-      .map((record, rowIndex) => this.getRecordKey(record, rowIndex));
+      .map((record) => this.getRecordKey(record));
   }
 
   getLocale() {
@@ -249,7 +249,7 @@ export default class Table<T> extends React.Component<TableProps<T>, any> {
       return;
     }
     const selectedRows = data.filter(
-      (row, i) => selectedRowKeys.indexOf(this.getRecordKey(row, i)) >= 0
+      (row) => selectedRowKeys.indexOf(this.getRecordKey(row)) >= 0
     );
     if (rowSelection.onChange) {
       rowSelection.onChange(selectedRowKeys, selectedRows);
@@ -258,7 +258,7 @@ export default class Table<T> extends React.Component<TableProps<T>, any> {
       rowSelection.onSelect(record, checked, selectedRows);
     } else if (selectWay === 'onSelectAll' && rowSelection.onSelectAll) {
       const changeRows = data.filter(
-        (row, i) => changeRowKeys.indexOf(this.getRecordKey(row, i)) >= 0
+        (row) => changeRowKeys.indexOf(this.getRecordKey(row)) >= 0
       );
       rowSelection.onSelectAll(checked, selectedRows, changeRows);
     }
@@ -423,13 +423,13 @@ export default class Table<T> extends React.Component<TableProps<T>, any> {
     });
   }
 
-  handleSelect = (record, rowIndex, e) => {
+  handleSelect = (record, e) => {
     const checked = e.target.checked;
     const defaultSelection = this.store.getState().selectionDirty ? [] : this.getDefaultSelection();
     let selectedRowKeys = this.store.getState().selectedRowKeys.concat(defaultSelection);
-    let key = this.getRecordKey(record, rowIndex);
+    let key = this.getRecordKey(record);
     if (checked) {
-      selectedRowKeys.push(this.getRecordKey(record, rowIndex));
+      selectedRowKeys.push(this.getRecordKey(record));
     } else {
       selectedRowKeys = selectedRowKeys.filter((i) => key !== i);
     }
@@ -443,11 +443,11 @@ export default class Table<T> extends React.Component<TableProps<T>, any> {
     });
   }
 
-  handleRadioSelect = (record, rowIndex, e) => {
+  handleRadioSelect = (record, e) => {
     const checked = e.target.checked;
     const defaultSelection = this.store.getState().selectionDirty ? [] : this.getDefaultSelection();
     let selectedRowKeys = this.store.getState().selectedRowKeys.concat(defaultSelection);
-    let key = this.getRecordKey(record, rowIndex);
+    let key = this.getRecordKey(record);
     selectedRowKeys = [key];
     this.store.setState({
       selectionDirty: true,
@@ -466,7 +466,7 @@ export default class Table<T> extends React.Component<TableProps<T>, any> {
     const selectedRowKeys = this.store.getState().selectedRowKeys.concat(defaultSelection);
     const changableRowKeys = data
       .filter(item => !this.getCheckboxPropsByItem(item).disabled)
-      .map((item, i) => this.getRecordKey(item, i));
+      .map((item) => this.getRecordKey(item));
 
     // 记录变化的列
     const changeRowKeys: string[] = [];
@@ -530,12 +530,12 @@ export default class Table<T> extends React.Component<TableProps<T>, any> {
   }
 
   renderSelectionBox = (type) => {
-    return (_, record, index) => {
-      let rowIndex = this.getRecordKey(record, index); // 从 1 开始
+    return (_, record) => {
+      let rowIndex = this.getRecordKey(record); // 从 1 开始
       const props = this.getCheckboxPropsByItem(record);
       const handleChange = (e) => {
-        type === 'radio' ? this.handleRadioSelect(record, rowIndex, e) :
-                           this.handleSelect(record, rowIndex, e);
+        type === 'radio' ? this.handleRadioSelect(record, e) :
+                           this.handleSelect(record, e);
       };
 
       return (
@@ -553,10 +553,10 @@ export default class Table<T> extends React.Component<TableProps<T>, any> {
     };
   }
 
-  getRecordKey = (record, index?): string => {
+  getRecordKey = (record): string => {
     const rowKey = this.props.rowKey;
     if (typeof rowKey === 'function') {
-      return rowKey(record, index);
+      return rowKey(record);
     }
     const recordKey = record[rowKey as string];
     warning(recordKey !== undefined,
