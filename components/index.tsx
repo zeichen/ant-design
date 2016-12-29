@@ -1,5 +1,5 @@
 /* eslint no-console:0 */
-// this file is not used if use https://github.com/ant-design/babel-plugin-import
+// this file is not used if use https://github.com/vsi-design/babel-plugin-import
 if (process.env.NODE_ENV !== 'production') {
   if (typeof console !== 'undefined' && console.warn) {
     console.warn(`You are using prebuilt antd,

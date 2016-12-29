@@ -35,10 +35,10 @@ const columns = [{
   render: (text, record) => (
     <span>
       <a href="#">Action 一 {record.name}</a>
-      <span className="ant-divider" />
+      <span className="vsi-divider" />
       <a href="#">Delete</a>
-      <span className="ant-divider" />
-      <a href="#" className="ant-dropdown-link">
+      <span className="vsi-divider" />
+      <a href="#" className="vsi-dropdown-link">
         More actions <Icon type="down" />
       </a>
     </span>

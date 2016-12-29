@@ -55,7 +55,7 @@ ReactDOM.render(
 
 ````css
 /* tile uploaded pictures */
-.upload-list-inline .ant-upload-list-item {
+.upload-list-inline .vsi-upload-list-item {
   display: inline-block;
   width: 200px;
   margin-right: 8px;

@@ -39,7 +39,7 @@ ReactDOM.render(<Demo />, mountNode);
 ````
 
 <style>
-.code-box-demo .ant-slider {
+.code-box-demo .vsi-slider {
   margin-bottom: 16px;
 }
 </style>

@@ -24,7 +24,7 @@ ReactDOM.render(
 ````
 
 ````css
-.ant-badge:not(.ant-badge-status) {
+.vsi-badge:not(.vsi-badge-status) {
   margin-right: 16px;
 }
 .head-example {

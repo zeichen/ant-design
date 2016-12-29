@@ -93,8 +93,8 @@ const defaultDisplayRender = label => label.join(' / ');
 
 export default class Cascader extends React.Component<CascaderProps, any> {
   static defaultProps = {
-    prefixCls: 'ant-cascader',
-    inputPrefixCls: 'ant-input',
+    prefixCls: 'vsi-cascader',
+    inputPrefixCls: 'vsi-input',
     placeholder: 'Please select',
     transitionName: 'slide-up',
     popupPlacement: 'bottomLeft',

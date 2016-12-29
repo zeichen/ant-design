@@ -81,7 +81,7 @@ ReactDOM.render(<App />, mountNode);
   width: 0;
 }
 
-.vertical-center-modal .ant-modal {
+.vertical-center-modal .vsi-modal {
   display: inline-block;
   vertical-align: middle;
   top: 0;
@@ -96,7 +96,7 @@ ReactDOM.render(<App />, mountNode);
   justify-content: center;
 }
 
-.vertical-center-modal .ant-modal {
+.vertical-center-modal .vsi-modal {
   top: 0;
 }
 */

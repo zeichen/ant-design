@@ -1,6 +1,6 @@
 @import "../../style/mixins/index";
 
-.antCheckboxFn(@checkbox-prefix-cls: ~"@{ant-prefix}-checkbox") {
+.antCheckboxFn(@checkbox-prefix-cls: ~"@{vsi-prefix}-checkbox") {
   @checkbox-inner-prefix-cls: ~"@{checkbox-prefix-cls}-inner";
   // 一般状态
   .@{checkbox-prefix-cls} {
@@ -144,7 +144,7 @@
 
   @ie8: \0screen;
 
-  // IE8 hack for https://github.com/ant-design/ant-design/issues/2148
+  // IE8 hack for https://github.com/vsi-design/vsi-design/issues/2148
   @media @ie8 {
     .@{checkbox-prefix-cls}-checked .@{checkbox-prefix-cls}-inner:before,
     .@{checkbox-prefix-cls}-checked .@{checkbox-prefix-cls}-inner:after {

@@ -67,7 +67,7 @@ const columns = [{
 | onExpand      | function to call when click expand icon | Function(expanded, record) | |
 | onChange      | callback that is called when pagination, filters, sorter is changed | Function(pagination, filters, sorter) |  |
 | loading       | loading status of table | Boolean | false |
-| locale        | i18n text include filter, sort, empty text...etc | Object | filterConfirm: 'Ok' <br> filterReset: 'Reset' <br> emptyText: 'No Data' <br> [Default](https://github.com/ant-design/ant-design/issues/575#issuecomment-159169511) |
+| locale        | i18n text include filter, sort, empty text...etc | Object | filterConfirm: 'Ok' <br> filterReset: 'Reset' <br> emptyText: 'No Data' <br> [Default](https://github.com/vsi-design/vsi-design/issues/575#issuecomment-159169511) |
 | indentSize    | index pixel size of tree data | Number   | 15 |
 | onRowClick    | callback that is called when click a row | Function(record, index)   | - |
 | bordered  | whether to show table border completely | Boolean | false      |

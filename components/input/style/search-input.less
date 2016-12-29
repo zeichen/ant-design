@@ -3,11 +3,11 @@
 @import "../../button/style/mixin";
 @import "./mixin";
 
-.@{ant-prefix}-input-search-wrapper {
+.@{vsi-prefix}-input-search-wrapper {
   display: inline-block;
   position: relative;
 
-  .@{ant-prefix}-input-search {
+  .@{vsi-prefix}-input-search {
     transition: all .3s ease;
     &-icon {
       position: absolute;
@@ -25,32 +25,32 @@
     }
   }
 
-  &:hover .@{ant-prefix}-input-search:not([disabled]) {
+  &:hover .@{vsi-prefix}-input-search:not([disabled]) {
     border: 1px solid @input-hover-border-color;
   }
 }
 
 // code blow is keeped for compatibility
 // do not delete until 3.x
-.@{ant-prefix}-search-input-wrapper {
+.@{vsi-prefix}-search-input-wrapper {
   display: inline-block;
   vertical-align: middle;
 }
 
-.@{ant-prefix}-search-input {
-  &.@{ant-prefix}-input-group .@{ant-prefix}-input:first-child,
-  &.@{ant-prefix}-input-group .@{ant-prefix}-select:first-child {
+.@{vsi-prefix}-search-input {
+  &.@{vsi-prefix}-input-group .@{vsi-prefix}-input:first-child,
+  &.@{vsi-prefix}-input-group .@{vsi-prefix}-select:first-child {
     border-radius: @border-radius-base;
     position: absolute;
     top: -1px;
     width: 100%;
   }
 
-  &.@{ant-prefix}-input-group .@{ant-prefix}-input:first-child {
+  &.@{vsi-prefix}-input-group .@{vsi-prefix}-input:first-child {
     padding-right: 36px;
   }
 
-  .@{ant-prefix}-search-btn {
+  .@{vsi-prefix}-search-btn {
     .btn-default;
     border-radius: 0 @border-radius-base - 1 @border-radius-base - 1 0;
     left: -1px;
@@ -63,12 +63,12 @@
       border-color: @border-color-base;
     }
   }
-  &&-focus .@{ant-prefix}-search-btn-noempty,
-  &:hover .@{ant-prefix}-search-btn-noempty {
+  &&-focus .@{vsi-prefix}-search-btn-noempty,
+  &:hover .@{vsi-prefix}-search-btn-noempty {
     .btn-primary;
   }
-  .@{ant-prefix}-select-combobox {
-    .@{ant-prefix}-select-selection__rendered {
+  .@{vsi-prefix}-select-combobox {
+    .@{vsi-prefix}-select-selection__rendered {
       margin-right: 29px;
     }
   }

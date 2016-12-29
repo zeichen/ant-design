@@ -35,7 +35,7 @@ module.exports = {
     'app.footer.data-vis': 'Data Visualization',
     'app.footer.data-vis-spec': 'Data Visualization Specification',
     'app.footer.motion': 'Motion',
-    'app.footer.antd-library': 'Axure library of Ant Design',
+    'app.footer.antd-library': 'Axure library of Vsi Design',
     'app.footer.material': 'Sitemap Template',
     'app.footer.community': 'Community',
     'app.footer.change-log': 'Change Log',

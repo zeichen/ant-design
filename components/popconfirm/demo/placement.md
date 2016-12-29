@@ -71,14 +71,14 @@ ReactDOM.render(<div className="demo">
 ````
 
 <style>
-.code-box-demo .ant-popover-wrap > a {
+.code-box-demo .vsi-popover-wrap > a {
   margin-right: 8px;
 }
-.code-box-demo .ant-btn {
+.code-box-demo .vsi-btn {
   margin-right: 8px;
   margin-bottom: 8px;
 }
-#components-popconfirm-demo-placement .ant-btn {
+#components-popconfirm-demo-placement .vsi-btn {
   width: 70px;
 }
 </style>

@@ -77,11 +77,11 @@ ReactDOM.render(
 ````
 
 <style>
-.code-box-demo .ant-btn {
+.code-box-demo .vsi-btn {
   margin-right: 8px;
   margin-bottom: 8px;
 }
-#components-popover-demo-placement .ant-btn {
+#components-popover-demo-placement .vsi-btn {
   width: 70px;
 }
 </style>

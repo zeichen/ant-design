@@ -23,7 +23,7 @@ title: Upload
 |------------|--------------------------------------------------------------| ----------- |-------|
 | name       | 发到后台的文件参数名                                         | String      | 'file'  |
 | defaultFileList | 默认已经上传的文件列表                           | Array[Object] | 无  |
-| fileList   | 已经上传的文件列表（受控），使用此参数时，如果遇到 `onChange` 只调用一次的问题，请参考 [#2423](https://github.com/ant-design/ant-design/issues/2423) | Array[Object] | 无 |
+| fileList   | 已经上传的文件列表（受控），使用此参数时，如果遇到 `onChange` 只调用一次的问题，请参考 [#2423](https://github.com/vsi-design/vsi-design/issues/2423) | Array[Object] | 无 |
 | action     | 必选参数, 上传的地址                                         | String      | 无    |
 | data       | 上传所需参数或返回上传参数的方法                   | Object or function(file) | 无    |
 | headers    | 设置上传的请求头部，IE10 以上有效                    | Object      | 无    |

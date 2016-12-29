@@ -104,7 +104,7 @@ export default class Table<T> extends React.Component<TableProps<T>, any> {
 
   static defaultProps = {
     dataSource: [],
-    prefixCls: 'ant-table',
+    prefixCls: 'vsi-table',
     useFixedHeader: false,
     rowSelection: null,
     className: '',
@@ -643,7 +643,7 @@ export default class Table<T> extends React.Component<TableProps<T>, any> {
             selectedKeys={colFilters}
             confirmFilter={this.handleFilter}
             prefixCls={`${prefixCls}-filter`}
-            dropdownPrefixCls={dropdownPrefixCls || 'ant-dropdown'}
+            dropdownPrefixCls={dropdownPrefixCls || 'vsi-dropdown'}
           />
         );
       }

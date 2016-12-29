@@ -61,7 +61,7 @@ export default class Alert extends React.Component<AlertProps, any> {
   }
   render() {
     let {
-      closable, description, type, prefixCls = 'ant-alert', message, closeText, showIcon, banner,
+      closable, description, type, prefixCls = 'vsi-alert', message, closeText, showIcon, banner,
       className = '', style,
     } = this.props;
 

@@ -1,6 +1,6 @@
-# Contributing to Ant Design
+# Contributing to Vsi Design
 
-The following is a set of guidelines for contributing to Ant Design. Please spend several minutes in reading these guidelines before you create an issue or pull request.
+The following is a set of guidelines for contributing to Vsi Design. Please spend several minutes in reading these guidelines before you create an issue or pull request.
 
 Anyway, these are just guidelines, not rules, use your best judgment and feel free to propose changes to this document in a pull request.
 
@@ -13,15 +13,15 @@ The following guidelines are about *How to avoid Homework Questions*.
 
 ### 1. Read the documentation.
 
-It sad but true that someone just glance(not read) [Ant Design's documentation](http://ant.design/). Please read the documentation closely. What's more, you can modify and run our demo with [CodePen](http://codepen.io/benjycui/pen/KgPZrE?editors=001). It's helpful to understand our documentation.
+It sad but true that someone just glance(not read) [Vsi Design's documentation](http://ant.design/). Please read the documentation closely. What's more, you can modify and run our demo with [CodePen](http://codepen.io/benjycui/pen/KgPZrE?editors=001). It's helpful to understand our documentation.
 
 Tips: choose the corresponding documentation with versions selector which in the bottom-right corner.
 
-### 2. Make sure that your question is about Ant Design, not React
+### 2. Make sure that your question is about Vsi Design, not React
 
-Someone may think all of the questions that he/she meets in developing are about Ant Design, but it's not true. So, please read [React's documentation](http://facebook.github.io/react/docs/getting-started.html) or just Google (not Baidu, seriously) your questions with keyword *React* first. If you are sure that your question is about Ant Design, go ahead.
+Someone may think all of the questions that he/she meets in developing are about Vsi Design, but it's not true. So, please read [React's documentation](http://facebook.github.io/react/docs/getting-started.html) or just Google (not Baidu, seriously) your questions with keyword *React* first. If you are sure that your question is about Vsi Design, go ahead.
 
-### 3. Read the FAQ and search the issues list of Ant Design
+### 3. Read the FAQ and search the issues list of Vsi Design
 
 Your questions may be asked and solved by others. So please spend several minutes on searching. Remember [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself), both code and questions.
 
@@ -41,7 +41,7 @@ It would be helpful to provide a demo which can re-produce the bug 100%. Please 
 
 ## Tips about Feature Request
 
-If you believe that Ant Design should provide some features, but it does not. You could create an issue to discuss. However, Ant Design is not Swiss Army Knife, there are some features which Ant Design will not support:
+If you believe that Vsi Design should provide some features, but it does not. You could create an issue to discuss. However, Vsi Design is not Swiss Army Knife, there are some features which Vsi Design will not support:
 
 1. Request or operate data
 

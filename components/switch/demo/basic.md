@@ -27,7 +27,7 @@ ReactDOM.render(
 ````
 
 <style>
-.ant-switch {
+.vsi-switch {
   margin-bottom: 8px;
 }
 <style>

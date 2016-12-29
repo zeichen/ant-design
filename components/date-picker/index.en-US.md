@@ -41,7 +41,7 @@ The following APIs are shared by DatePicker, MonthPicker, RangePicker.
 | style        | to customize the style of the input box     | Object     | {}   |
 | popupStyle   | to customize the style of the popup calendar   | Object     | {}   |
 | size         | determine the size of the input box, the height of `large` and `small`, are 32px and 22px respectively, while default size is 28px | String   | -  |
-| locale       | localization configuration | Object   | [default](https://github.com/ant-design/ant-design/blob/master/components/date-picker/locale/example.json)  |
+| locale       | localization configuration | Object   | [default](https://github.com/vsi-design/vsi-design/blob/master/components/date-picker/locale/example.json)  |
 | disabledDate | to specify the date that cannot be selected | function | -           |
 | getCalendarContainer | to set the container of the floating layer, while the default is to create a `div` element in `body` | function(trigger) | - |
 | open | open state of picker | bool | - |
@@ -84,7 +84,7 @@ The following APIs are shared by DatePicker, MonthPicker, RangePicker.
 | ranges       | preseted ranges for quick selection | Object { [range: string]: [moment, moment] } | - |
 
 <style>
-.code-box-demo .ant-calendar-picker {
+.code-box-demo .vsi-calendar-picker {
   margin: 0 8px 12px 0;
 }
 </style>

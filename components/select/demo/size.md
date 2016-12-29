@@ -1,6 +1,6 @@
 ---
 order: 0
-title: 
+title:
   zh-CN: 三种大小
   en-US: Three sizes
 ---
@@ -46,11 +46,11 @@ ReactDOM.render(
 ````
 
 ````css
-.code-box-demo .ant-select {
+.code-box-demo .vsi-select {
   margin: 0 8px 10px 0;
 }
 
-#components-select-demo-search-box .code-box-demo .ant-select {
+#components-select-demo-search-box .code-box-demo .vsi-select {
   margin: 0;
 }
 ````

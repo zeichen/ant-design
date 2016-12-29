@@ -61,7 +61,7 @@ export default class Select extends React.Component<SelectProps, any> {
   static OptGroup = OptGroup as React.ClassicComponentClass<OptGroupProps>;
 
   static defaultProps = {
-    prefixCls: 'ant-select',
+    prefixCls: 'vsi-select',
     showSearch: false,
     transitionName: 'slide-up',
     choiceTransitionName: 'zoom',

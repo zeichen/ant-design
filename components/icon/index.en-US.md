@@ -31,7 +31,7 @@ Finally, it will be rendered as follow:
 
 ## Local deployment of icons font
 
-By default, icon components uses [iconfont.cn](http://iconfont.cn), publicly available repository of a huge set of icons. In case you need to use a locally deployed version of the icon font, you can refer to [this example](https://github.com/ant-design/antd-init/tree/master/examples/local-iconfont)。
+By default, icon components uses [iconfont.cn](http://iconfont.cn), publicly available repository of a huge set of icons. In case you need to use a locally deployed version of the icon font, you can refer to [this example](https://github.com/vsi-design/antd-init/tree/master/examples/local-iconfont)。
 
 ## List of icons
 
@@ -60,7 +60,7 @@ ReactDOM.render(<IconSet className="icons" catigory="other" />, mountNode);
 
 | Property | Description      | Type   | Default |
 |----------|------------------|------- |---------|
-| type | Type of ant design icons | string | - |
+| type | Type of Vsi Design icons | string | - |
 | spin | Rotate icon with animation | boolean | false |
 
 <style>

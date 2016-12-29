@@ -88,7 +88,7 @@ const Demo = Form.create()(React.createClass({
           {getFieldDecorator('input-number', { initialValue: 3 })(
             <InputNumber min={1} max={10} />
           )}
-          <span className="ant-form-text"> machines</span>
+          <span className="vsi-form-text"> machines</span>
         </FormItem>
 
         <FormItem

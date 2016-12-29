@@ -95,7 +95,7 @@ export default class RadioGroup extends React.Component<RadioGroupProps, any> {
       return radio;
     });
 
-    const { prefixCls = 'ant-radio-group', className = '' } = props;
+    const { prefixCls = 'vsi-radio-group', className = '' } = props;
     const classString = classNames(prefixCls, {
       [`${prefixCls}-${props.size}`]: props.size,
     }, className);

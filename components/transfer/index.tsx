@@ -272,7 +272,7 @@ export default class Transfer extends React.Component<TransferProps, any> {
 
   render() {
     const {
-      prefixCls = 'ant-transfer', operations = [], showSearch, notFoundContent,
+      prefixCls = 'vsi-transfer', operations = [], showSearch, notFoundContent,
       searchPlaceholder, body, footer, listStyle, className = '',
       filterOption, render, lazy,
     } = this.props;

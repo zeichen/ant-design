@@ -69,7 +69,7 @@ class AdvancedSearchForm extends React.Component {
     return (
       <Form
         horizontal
-        className="ant-advanced-search-form"
+        className="vsi-advanced-search-form"
         onSubmit={this.handleSearch}
       >
         <Row gutter={40}>
@@ -102,7 +102,7 @@ ReactDOM.render(
 ````
 
 ````css
-#components-form-demo-advanced-search .ant-advanced-search-form {
+#components-form-demo-advanced-search .vsi-advanced-search-form {
   padding: 24px;
   background: #fbfbfb;
   border: 1px solid #d9d9d9;
@@ -111,7 +111,7 @@ ReactDOM.render(
 ````
 
 <style>
-#components-form-demo-advanced-search .ant-form-horizontal {
+#components-form-demo-advanced-search .vsi-form-horizontal {
   max-width: none;
 }
 #components-form-demo-advanced-search .search-result-list {

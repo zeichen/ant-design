@@ -12,11 +12,11 @@
 
 .make-grid-columns() {
   .col(@index) {
-    @item: ~".@{ant-prefix}-col-@{index}, .@{ant-prefix}-col-xs-@{index}, .@{ant-prefix}-col-sm-@{index}, .@{ant-prefix}-col-md-@{index}, .@{ant-prefix}-col-lg-@{index}";
+    @item: ~".@{vsi-prefix}-col-@{index}, .@{vsi-prefix}-col-xs-@{index}, .@{vsi-prefix}-col-sm-@{index}, .@{vsi-prefix}-col-md-@{index}, .@{vsi-prefix}-col-lg-@{index}";
     .col((@index + 1), @item);
   }
   .col(@index, @list) when (@index =< @grid-columns) {
-    @item: ~".@{ant-prefix}-col-@{index}, .@{ant-prefix}-col-xs-@{index}, .@{ant-prefix}-col-sm-@{index}, .@{ant-prefix}-col-md-@{index}, .@{ant-prefix}-col-lg-@{index}";
+    @item: ~".@{vsi-prefix}-col-@{index}, .@{vsi-prefix}-col-xs-@{index}, .@{vsi-prefix}-col-sm-@{index}, .@{vsi-prefix}-col-md-@{index}, .@{vsi-prefix}-col-lg-@{index}";
     .col((@index + 1), ~"@{list}, @{item}");
   }
   .col(@index, @list) when (@index > @grid-columns) {
@@ -33,11 +33,11 @@
 
 .float-grid-columns(@class) {
   .col(@index) { // initial
-    @item: ~".@{ant-prefix}-col@{class}-@{index}";
+    @item: ~".@{vsi-prefix}-col@{class}-@{index}";
     .col((@index + 1), @item);
   }
   .col(@index, @list) when (@index =< @grid-columns) { // general
-    @item: ~".@{ant-prefix}-col@{class}-@{index}";
+    @item: ~".@{vsi-prefix}-col@{class}-@{index}";
     .col((@index + 1), ~"@{list}, @{item}");
   }
   .col(@index, @list) when (@index > @grid-columns) { // terminal
@@ -51,33 +51,33 @@
 
 // lesshint false
 .loop-grid-columns(@index, @class) when (@index > 0) {
-  .@{ant-prefix}-col@{class}-@{index} {
+  .@{vsi-prefix}-col@{class}-@{index} {
     display: block;
     width: percentage((@index / @grid-columns));
   }
-  .@{ant-prefix}-col@{class}-push-@{index} {
+  .@{vsi-prefix}-col@{class}-push-@{index} {
     left: percentage((@index / @grid-columns));
   }
-  .@{ant-prefix}-col@{class}-pull-@{index} {
+  .@{vsi-prefix}-col@{class}-pull-@{index} {
     right: percentage((@index / @grid-columns));
   }
-  .@{ant-prefix}-col@{class}-offset-@{index} {
+  .@{vsi-prefix}-col@{class}-offset-@{index} {
     margin-left: percentage((@index / @grid-columns));
   }
-  .@{ant-prefix}-col@{class}-order-@{index} {
+  .@{vsi-prefix}-col@{class}-order-@{index} {
     order: @index;
   }
   .loop-grid-columns((@index - 1), @class);
 }
 
 .loop-grid-columns(@index, @class) when (@index = 0) {
-  .@{ant-prefix}-col@{class}-@{index} {
+  .@{vsi-prefix}-col@{class}-@{index} {
     display: none;
   }
-  .@{ant-prefix}-col-push-@{index} {
+  .@{vsi-prefix}-col-push-@{index} {
     left: auto;
   }
-  .@{ant-prefix}-col-pull-@{index} {
+  .@{vsi-prefix}-col-pull-@{index} {
     right: auto;
   }
 }

@@ -37,7 +37,7 @@ ReactDOM.render(
 ````
 
 ````css
-.gutter-example .ant-row > div {
+.gutter-example .vsi-row > div {
   background: transparent;
   border: 0;
 }

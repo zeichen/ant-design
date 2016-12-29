@@ -34,7 +34,7 @@ ReactDOM.render(
 ````
 
 <style>
-.code-box-demo .ant-btn {
+.code-box-demo .vsi-btn {
   margin-right: 1em;
 }
 </style>

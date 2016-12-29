@@ -88,7 +88,7 @@ export default class Tree extends React.Component<TreeProps, any> {
   static TreeNode = TreeNode;
 
   static defaultProps = {
-    prefixCls: 'ant-tree',
+    prefixCls: 'vsi-tree',
     checkable: false,
     showIcon: false,
     openAnimation: animation,

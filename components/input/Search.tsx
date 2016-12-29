@@ -20,7 +20,7 @@ export interface SearchProps {
 
 export default class Search extends React.Component<SearchProps, any> {
   static defaultProps = {
-    prefixCls: 'ant-input-search',
+    prefixCls: 'vsi-input-search',
     onSearch() {},
   };
   input: any;

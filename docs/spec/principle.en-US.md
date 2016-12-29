@@ -31,7 +31,7 @@ After referring to the summary and reasoning of design principles from The Non-D
 </a>
 </div>
 
-#### Ant Design Principles
+#### Vsi Design Principles
 
 - [Proximity](/docs/spec/proximity)
 - [Alignment](/docs/spec/alignment)

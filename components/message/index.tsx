@@ -6,7 +6,7 @@ let defaultDuration = 1.5;
 let defaultTop;
 let messageInstance;
 let key = 1;
-let prefixCls = 'ant-message';
+let prefixCls = 'vsi-message';
 
 function getMessageInstance() {
   messageInstance = messageInstance || Notification.newInstance({

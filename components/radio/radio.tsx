@@ -24,7 +24,7 @@ export default class Radio extends React.Component<RadioProps, any> {
   static Button: any;
 
   static defaultProps = {
-    prefixCls: 'ant-radio',
+    prefixCls: 'vsi-radio',
   };
   shouldComponentUpdate(...args) {
     return PureRenderMixin.shouldComponentUpdate.apply(this, args);

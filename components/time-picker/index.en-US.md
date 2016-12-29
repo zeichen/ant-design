@@ -36,4 +36,4 @@ import moment from 'moment';
 | getPopupContainer   | to set the container of the floating layer, while the default is to create a div element in body | function(trigger) | - |
 | addon | called from timepicker panel to render some addon to its bottom | function | 无 |
 
-<style>.code-box-demo .ant-time-picker { margin: 0 8px 12px 0; }</style>
+<style>.code-box-demo .vsi-time-picker { margin: 0 8px 12px 0; }</style>

@@ -8,7 +8,7 @@ import Icon from '../icon';
 
 export default class RangePicker extends React.Component<any, any> {
   static defaultProps = {
-    prefixCls: 'ant-calendar',
+    prefixCls: 'vsi-calendar',
     allowClear: true,
     showToday: false,
   };

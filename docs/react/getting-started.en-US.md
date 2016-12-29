@@ -3,11 +3,11 @@ order: 1
 title: Getting Started
 ---
 
-Ant Design React is dedicated to providing a **good development experience** for programmers.
+Vsi Design React is dedicated to providing a **good development experience** for programmers.
 
 ---
 
-Before delving into Ant Design React, a good knowledge of [React](http://facebook.github.io/react/) and [JavaScript ES2015](http://babeljs.io/docs/learn-es2015/) is needed.
+Before delving into Vsi Design React, a good knowledge of [React](http://facebook.github.io/react/) and [JavaScript ES2015](http://babeljs.io/docs/learn-es2015/) is needed.
 
 ## First Example
 
@@ -112,7 +112,7 @@ Entry files will be built and generated in `dist` directory, then we can deploy 
 
 ## Compatibility
 
-Ant Design React supports all the modern browsers and IE9+.
+Vsi Design React supports all the modern browsers and IE9+.
 
 You need to provide [es5-shim](https://github.com/es-shims/es5-shim) and [es6-shim](https://github.com/paulmillr/es6-shim) and other polyfills for IE browsers. If you are using babel, we strongly recommend to use [babel-polyfill](https://babeljs.io/docs/usage/polyfill/) and [babel-plugin-transform-runtime](https://babeljs.io/docs/plugins/transform-runtime/).
 

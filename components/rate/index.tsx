@@ -17,7 +17,7 @@ export default class Rate extends React.Component<RateProps, any> {
     prefixCls: PropTypes.string,
   };
   static defaultProps = {
-    prefixCls: 'ant-rate',
+    prefixCls: 'vsi-rate',
   };
   render() {
     return <RcRate {...this.props} />;

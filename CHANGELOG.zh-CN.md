@@ -385,7 +385,7 @@ timeline: true
 
 ### 2.x 相关工具发布
 
-* 新增配套网站 [AntD Library](http://library.ant.design/)，提供遵循 Ant Design 设计规范的组件、模式等的 Axure 资源。
+* 新增配套网站 [AntD Library](http://library.ant.design/)，提供遵循 Vsi Design 设计规范的组件、模式等的 Axure 资源。
 * `babel-plugin-antd` 更名为 [babel-plugin-import](https://github.com/ant-design/babel-plugin-import)，标志着该插件将作为一个通用的按需加载方案存在，而不再是 `antd` 专有。
 
   请更新 `package.json`：

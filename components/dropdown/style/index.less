@@ -1,7 +1,7 @@
 @import "../../style/themes/default";
 @import "../../style/mixins/index";
 
-@dropdown-prefix-cls: ~"@{ant-prefix}-dropdown";
+@dropdown-prefix-cls: ~"@{vsi-prefix}-dropdown";
 
 .@{dropdown-prefix-cls} {
   position: absolute;
@@ -16,7 +16,7 @@
   &-wrap {
     position: relative;
 
-    .@{ant-prefix}-btn > .@{iconfont-css-prefix}-down {
+    .@{vsi-prefix}-btn > .@{iconfont-css-prefix}-down {
       .iconfont-size-under-12px(10px);
     }
 
@@ -162,7 +162,7 @@
 }
 
 .@{dropdown-prefix-cls}-button {
-  &.@{ant-prefix}-btn-group > .@{ant-prefix}-btn:last-child:not(:first-child) {
+  &.@{vsi-prefix}-btn-group > .@{vsi-prefix}-btn:last-child:not(:first-child) {
     padding-right: 7px;
   }
   .@{iconfont-css-prefix}-down {

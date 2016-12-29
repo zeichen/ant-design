@@ -17,7 +17,7 @@ export default class Dropdown extends React.Component<DropDownProps, any> {
   static Button: React.ReactNode;
   static defaultProps = {
     transitionName: 'slide-up',
-    prefixCls: 'ant-dropdown',
+    prefixCls: 'vsi-dropdown',
     mouseEnterDelay: 0.15,
     mouseLeaveDelay: 0.1,
   };

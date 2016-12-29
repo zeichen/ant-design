@@ -84,7 +84,7 @@ function getStyle() {
 
 function Home(props) {
   return (
-    <DocumentTitle title={`Ant Design - ${props.intl.formatMessage({ id: 'app.home.slogan' })}`}>
+    <DocumentTitle title={`VSI Design - ${props.intl.formatMessage({ id: 'app.home.slogan' })}`}>
       <div className="main-wrapper">
         <Link />
         <Banner {...props} />

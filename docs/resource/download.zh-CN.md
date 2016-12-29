@@ -3,14 +3,14 @@ order: 0
 title: 资源下载
 ---
 
-这里提供 Ant Design 相关设计资源和设计工具的下载，更多设计资源正在整理和完善中。
+这里提供 Vsi Design 相关设计资源和设计工具的下载，更多设计资源正在整理和完善中。
 
 <div class="resource-cards">
 <a target="_blank" href="http://library.ant.design" class="resource-card">
   <img src="https://zos.alipayobjects.com/rmsportal/qXrCHrsuyrINSeerFOerLcTTFZiEzHAJ.png">
   <span class="resource-card-content">
-    <span class="resource-card-title">Ant Design Library v2.0.1</span>
-    <span class="resource-card-description">一套强大的 Ant Design 的 Axure 部件库</span>
+    <span class="resource-card-title">Vsi Design Library v2.0.1</span>
+    <span class="resource-card-description">一套强大的 Vsi Design 的 Axure 部件库</span>
   </span>
 </a>
 <a target="_blank" href="https://github.com/ant-design/ant-design/releases/download/resource/Ant.Design.Template.v1.1.sketch" class="resource-card">

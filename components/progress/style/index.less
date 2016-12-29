@@ -1,7 +1,7 @@
 @import "../../style/themes/default";
 @import "../../style/mixins/index";
 
-@progress-prefix-cls: ~"@{ant-prefix}-progress";
+@progress-prefix-cls: ~"@{vsi-prefix}-progress";
 
 .@{progress-prefix-cls} {
   display: inline-block;
@@ -64,7 +64,7 @@
       bottom: 0;
       background: @component-background;
       border-radius: 10px;
-      animation: ~"@{ant-prefix}-progress-active" 2s @ease-out-quint infinite;
+      animation: ~"@{vsi-prefix}-progress-active" 2s @ease-out-quint infinite;
     }
   }
 
@@ -121,7 +121,7 @@
   }
 }
 
-@keyframes ~"@{ant-prefix}-progress-active" {
+@keyframes ~"@{vsi-prefix}-progress-active" {
   0% {
     opacity: 0.8;
     width: 0;

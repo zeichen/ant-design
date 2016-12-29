@@ -5,7 +5,7 @@
 @import "../../grid/style/mixin";
 @import "./mixin";
 
-@form-prefix-cls: ~"@{ant-prefix}-form";
+@form-prefix-cls: ~"@{vsi-prefix}-form";
 
 .reset-form();
 
@@ -37,18 +37,18 @@ input[type="checkbox"] {
 }
 
 // These classes are used directly on <label>s
-.@{ant-prefix}-radio-inline,
-.@{ant-prefix}-radio-vertical,
-.@{ant-prefix}-checkbox-inline,
-.@{ant-prefix}-checkbox-vertical {
+.@{vsi-prefix}-radio-inline,
+.@{vsi-prefix}-radio-vertical,
+.@{vsi-prefix}-checkbox-inline,
+.@{vsi-prefix}-checkbox-vertical {
   &.disabled {
     cursor: not-allowed;
   }
 }
 
 // These classes are used on elements with <label> descendants
-.@{ant-prefix}-radio,
-.@{ant-prefix}-checkbox {
+.@{vsi-prefix}-radio,
+.@{vsi-prefix}-checkbox {
   &.disabled {
     label {
       cursor: not-allowed;
@@ -101,7 +101,7 @@ input[type="checkbox"] {
     }
   }
 
-  .@{ant-prefix}-switch {
+  .@{vsi-prefix}-switch {
     margin: 4px 0;
   }
 
@@ -132,17 +132,17 @@ input[type="checkbox"] {
 // 表单下的输入框尺寸唯一: 大尺寸
 form {
   .has-feedback {
-    .@{ant-prefix}-input {
+    .@{vsi-prefix}-input {
       padding-right: 24px;
     }
   }
 
-  textarea.@{ant-prefix}-input {
+  textarea.@{vsi-prefix}-input {
     height: auto;
   }
 
   // input[type=file]
-  .@{ant-prefix}-upload {
+  .@{vsi-prefix}-upload {
     background: transparent;
   }
 
@@ -153,8 +153,8 @@ form {
   }
 
   // Radios and checkboxes on same line
-  .@{ant-prefix}-radio-inline,
-  .@{ant-prefix}-checkbox-inline {
+  .@{vsi-prefix}-radio-inline,
+  .@{vsi-prefix}-checkbox-inline {
     display: inline-block;
     vertical-align: middle;
     font-weight: normal;
@@ -166,30 +166,30 @@ form {
     }
   }
 
-  .@{ant-prefix}-checkbox-vertical,
-  .@{ant-prefix}-radio-vertical {
+  .@{vsi-prefix}-checkbox-vertical,
+  .@{vsi-prefix}-radio-vertical {
     display: block;
   }
 
-  .@{ant-prefix}-checkbox-vertical + .@{ant-prefix}-checkbox-vertical,
-  .@{ant-prefix}-radio-vertical + .@{ant-prefix}-radio-vertical {
+  .@{vsi-prefix}-checkbox-vertical + .@{vsi-prefix}-checkbox-vertical,
+  .@{vsi-prefix}-radio-vertical + .@{vsi-prefix}-radio-vertical {
     margin-left: 0;
   }
 
-  .@{ant-prefix}-input-number {
+  .@{vsi-prefix}-input-number {
     margin-top: -1px;
     margin-right: 8px;
   }
 
-  .@{ant-prefix}-select,
-  .@{ant-prefix}-cascader-picker {
+  .@{vsi-prefix}-select,
+  .@{vsi-prefix}-cascader-picker {
     width: 100%;
   }
 }
 
 // Input combined with select
-.@{ant-prefix}-input-group-wrap {
-  .@{ant-prefix}-select-selection {
+.@{vsi-prefix}-input-group-wrap {
+  .@{vsi-prefix}-select-selection {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
     &:hover {
@@ -197,18 +197,18 @@ form {
     }
   }
 
-  .@{ant-prefix}-select-selection--single {
+  .@{vsi-prefix}-select-selection--single {
     margin-left: -1px;
     height: @input-height-lg;
     background-color: #eee;
-    .@{ant-prefix}-select-selection__rendered {
+    .@{vsi-prefix}-select-selection__rendered {
       padding-left: 8px;
       padding-right: 25px;
       line-height: 30px;
     }
   }
 
-  .@{ant-prefix}-select-open .@{ant-prefix}-select-selection {
+  .@{vsi-prefix}-select-open .@{vsi-prefix}-select-selection {
     border-color: @border-color-base;
     box-shadow: none;
   }
@@ -221,8 +221,8 @@ form {
     .make-row;
   }
 
-  .@{ant-prefix}-radio-inline,
-  .@{ant-prefix}-checkbox-inline {
+  .@{vsi-prefix}-radio-inline,
+  .@{vsi-prefix}-checkbox-inline {
     vertical-align: baseline;
   }
 }
@@ -334,27 +334,27 @@ form {
   }
 
   //select
-  .@{ant-prefix}-select {
+  .@{vsi-prefix}-select {
     &-selection {
       border-color: @warning-color;
     }
-    &-open .@{ant-prefix}-select-selection,
-    &-focused .@{ant-prefix}-select-selection {
+    &-open .@{vsi-prefix}-select-selection,
+    &-focused .@{vsi-prefix}-select-selection {
       .active(@warning-color);
     }
   }
 
   // arrow and icon
-  .@{ant-prefix}-calendar-picker-icon:after,
-  .@{ant-prefix}-picker-icon:after,
-  .@{ant-prefix}-select-arrow,
-  .@{ant-prefix}-cascader-picker-arrow {
+  .@{vsi-prefix}-calendar-picker-icon:after,
+  .@{vsi-prefix}-picker-icon:after,
+  .@{vsi-prefix}-select-arrow,
+  .@{vsi-prefix}-cascader-picker-arrow {
     color: @warning-color;
   }
 
   //input-number, timepicker
-  .@{ant-prefix}-input-number,
-  .@{ant-prefix}-time-picker-input {
+  .@{vsi-prefix}-input-number,
+  .@{vsi-prefix}-time-picker-input {
     border-color: @warning-color;
     &-focused,
     &:focus {
@@ -375,27 +375,27 @@ form {
   }
 
   //select
-  .@{ant-prefix}-select {
+  .@{vsi-prefix}-select {
     &-selection {
       border-color: @error-color;
     }
-    &-open .@{ant-prefix}-select-selection,
-    &-focused .@{ant-prefix}-select-selection {
+    &-open .@{vsi-prefix}-select-selection,
+    &-focused .@{vsi-prefix}-select-selection {
       .active(@error-color);
     }
   }
 
   // arrow and icon
-  .@{ant-prefix}-calendar-picker-icon:after,
-  .@{ant-prefix}-picker-icon:after,
-  .@{ant-prefix}-select-arrow,
-  .@{ant-prefix}-cascader-picker-arrow {
+  .@{vsi-prefix}-calendar-picker-icon:after,
+  .@{vsi-prefix}-picker-icon:after,
+  .@{vsi-prefix}-select-arrow,
+  .@{vsi-prefix}-cascader-picker-arrow {
     color: @error-color;
   }
 
   //input-number, timepicker
-  .@{ant-prefix}-input-number,
-  .@{ant-prefix}-time-picker-input {
+  .@{vsi-prefix}-input-number,
+  .@{vsi-prefix}-time-picker-input {
     border-color: @error-color;
     &-focused,
     &:focus {
@@ -405,15 +405,15 @@ form {
       border-color: @error-color;
     }
   }
-  .@{ant-prefix}-mention-wrapper {
-    .@{ant-prefix}-mention-editor {
+  .@{vsi-prefix}-mention-wrapper {
+    .@{vsi-prefix}-mention-editor {
       &,
       &:not([disabled]):hover {
         border-color: @error-color;
       }
     }
-    &.active .@{ant-prefix}-mention-editor,
-    .@{ant-prefix}-mention-editor:not([disabled]):focus {
+    &.active .@{vsi-prefix}-mention-editor,
+    .@{vsi-prefix}-mention-editor:not([disabled]):focus {
       .active(@error-color);
     }
   }
@@ -428,13 +428,13 @@ form {
   }
 }
 
-.@{ant-prefix}-advanced-search-form {
+.@{vsi-prefix}-advanced-search-form {
   .@{form-prefix-cls}-item {
     margin-bottom: 16px;
   }
-  .@{ant-prefix}-input,
-  .@{ant-prefix}-input-group .@{ant-prefix}-input,
-  .@{ant-prefix}-input-group .@{ant-prefix}-input-group-addon {
+  .@{vsi-prefix}-input,
+  .@{vsi-prefix}-input-group .@{vsi-prefix}-input,
+  .@{vsi-prefix}-input-group .@{vsi-prefix}-input-group-addon {
     height: 28px;
   }
 }

@@ -2,20 +2,20 @@
 @import "../../style/mixins/index";
 @import '../../input/style/mixin.less';
 
-.@{ant-prefix}-mention-wrapper {
+.@{vsi-prefix}-mention-wrapper {
   position: relative;
   display: inline-block;
   width: 100%;
   vertical-align: middle;
-  &-active .@{ant-prefix}-mention-editor {
+  &-active .@{vsi-prefix}-mention-editor {
     .active;
   }
-  .@{ant-prefix}-mention-editor {
+  .@{vsi-prefix}-mention-editor {
    .input;
    padding: 0;
    display: block;
   }
-  .@{ant-prefix}-mention-editor-wrapper {
+  .@{vsi-prefix}-mention-editor-wrapper {
     overflow-y: auto;
     height: auto;
   }
@@ -37,7 +37,7 @@
   }
 }
 
-.@{ant-prefix}-mention-dropdown {
+.@{vsi-prefix}-mention-dropdown {
   margin-top: 1.5em;
   max-height: 250px;
   min-width: 120px;
@@ -53,7 +53,7 @@
   overflow-x: hidden;
   overflow-y: auto;
   font-size: @font-size-base;
-  &-notfound.@{ant-prefix}-mention-dropdown-item {
+  &-notfound.@{vsi-prefix}-mention-dropdown-item {
     color: #ccc;
 
     .@{iconfont-css-prefix}-loading {

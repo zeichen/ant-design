@@ -27,7 +27,7 @@ A carousel component. Scales with its container.
 For more info on the parameters, refer to the https://github.com/akiran/react-slick
 
 <style>
-.ant-carousel .slick-slide {
+.vsi-carousel .slick-slide {
   text-align: center;
   height: 160px;
   line-height: 160px;

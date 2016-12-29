@@ -28,7 +28,7 @@ subtitle: 走马灯
 更多参数可参考：https://github.com/akiran/react-slick
 
 <style>
-.ant-carousel .slick-slide {
+.vsi-carousel .slick-slide {
   text-align: center;
   height: 160px;
   line-height: 130px;

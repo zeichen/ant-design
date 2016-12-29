@@ -56,7 +56,7 @@ ReactDOM.render(
 ````
 
 <style>
-#components-time-picker-demo-disable-options .ant-time-picker {
+#components-time-picker-demo-disable-options .vsi-time-picker {
   width: 120px;
 }
 </style>

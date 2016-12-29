@@ -162,10 +162,10 @@
     transition: all .3s;
 
     // Reset Select's style in addon
-    .@{ant-prefix}-select {
+    .@{vsi-prefix}-select {
       margin: -(@input-padding-vertical-base + 1) (-@input-padding-horizontal);  // lesshint spaceAroundOperator: false
 
-      .@{ant-prefix}-select-selection {
+      .@{vsi-prefix}-select-selection {
         background-color: inherit;
         border: 0;
         margin: -1px;
@@ -175,14 +175,14 @@
 
       &-open,
       &-focused {
-        .@{ant-prefix}-select-selection {
+        .@{vsi-prefix}-select-selection {
           color: @primary-color;
         }
       }
     }
 
     // Expand addon icon click area
-    // https://github.com/ant-design/ant-design/issues/3714
+    // https://github.com/vsi-design/vsi-design/issues/3714
     > i:only-child:after {
       position: absolute;
       content: '';
@@ -201,7 +201,7 @@
     border-top-right-radius: 0;
 
     // Reset Select's style in addon
-    .@{ant-prefix}-select .@{ant-prefix}-select-selection {
+    .@{vsi-prefix}-select .@{vsi-prefix}-select-selection {
       border-bottom-right-radius: 0;
       border-top-right-radius: 0;
     }
@@ -220,7 +220,7 @@
     border-top-left-radius: 0;
 
     // Reset Select's style in addon
-    .@{ant-prefix}-select .@{ant-prefix}-select-selection {
+    .@{vsi-prefix}-select .@{vsi-prefix}-select-selection {
       border-bottom-left-radius: 0;
       border-top-left-radius: 0;
     }

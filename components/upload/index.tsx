@@ -61,7 +61,7 @@ export default class Upload extends React.Component<UploadProps, any> {
   static Dragger = Dragger;
 
   static defaultProps = {
-    prefixCls: 'ant-upload',
+    prefixCls: 'vsi-upload',
     type: 'select',
     multiple: false,
     action: '',

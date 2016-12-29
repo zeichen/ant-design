@@ -31,7 +31,7 @@ export default class DropdownButton extends React.Component<DropdownButtonProps,
       targetOffset: [0, 0],
     },
     type: 'default',
-    prefixCls: 'ant-dropdown-button',
+    prefixCls: 'vsi-dropdown-button',
   };
 
   render() {

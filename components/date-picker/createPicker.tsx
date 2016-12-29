@@ -17,7 +17,7 @@ export default function createPicker(TheCalendar) {
   const CalenderWrapper = React.createClass<any, any>({
     getDefaultProps() {
       return {
-        prefixCls: 'ant-calendar',
+        prefixCls: 'vsi-calendar',
         allowClear: true,
         showToday: true,
       };
@@ -108,7 +108,7 @@ export default function createPicker(TheCalendar) {
       let calendarHandler: Object = {};
       if (props.showTime) {
         calendarHandler = {
-          // fix https://github.com/ant-design/ant-design/issues/1902
+          // fix https://github.com/vsi-design/vsi-design/issues/1902
           onSelect: (value) => {
             this.handleTempChange(value);
           },

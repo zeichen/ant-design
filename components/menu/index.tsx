@@ -57,7 +57,7 @@ export default class Menu extends React.Component<MenuProps, any> {
   static SubMenu = SubMenu;
   static ItemGroup = ItemGroup;
   static defaultProps = {
-    prefixCls: 'ant-menu',
+    prefixCls: 'vsi-menu',
     className: '',
     theme: 'light',  // or dark
   };

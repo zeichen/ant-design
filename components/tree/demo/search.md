@@ -115,7 +115,7 @@ class SearchTree extends React.Component {
       const title = index > -1 ? (
         <span>
           {beforeStr}
-          <span className="ant-tree-searchable-filter">{searchValue}</span>
+          <span className="vsi-tree-searchable-filter">{searchValue}</span>
           {afterStr}
         </span>
       ) : <span>{item.key}</span>;
@@ -150,7 +150,7 @@ ReactDOM.render(<SearchTree />, mountNode);
 ````
 
 ````css
-.ant-tree-searchable-filter {
+.vsi-tree-searchable-filter {
   color: #f50;
   transition: all .3s ease;
 }

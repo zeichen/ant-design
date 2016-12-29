@@ -1,6 +1,6 @@
 ---
 order: 1
-title: 
+title:
     zh-CN: 三种大小
     en-US: Sizes
 ---
@@ -30,7 +30,7 @@ ReactDOM.render(
 ````
 
 ````css
-.ant-input-number {
+.vsi-input-number {
   margin-right: 10px;
 }
 ````

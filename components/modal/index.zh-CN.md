@@ -55,7 +55,7 @@ title: Modal
 | cancelText | 取消按钮文字    | String           | 取消       |
 
 <style>
-.code-box-demo .ant-btn {
+.code-box-demo .vsi-btn {
   margin-right: 8px;
 }
 </style>

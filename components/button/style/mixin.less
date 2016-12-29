@@ -19,7 +19,7 @@
   }
 }
 
-.button-variant-primary(@color; @background) {
+.button-varivsi-primary(@color; @background) {
   .button-color(@color; @background; @background);
 
   &:hover,
@@ -35,7 +35,7 @@
   .button-disabled();
 }
 
-.button-variant-other(@color; @background; @border) {
+.button-varivsi-other(@color; @background; @border) {
   .button-color(@color; @background; @border);
 
   &:hover,
@@ -153,12 +153,12 @@
 
 // primary button style
 .btn-primary() {
-  .button-variant-primary(@btn-primary-color; @btn-primary-bg);
+  .button-varivsi-primary(@btn-primary-color; @btn-primary-bg);
 }
 
 // default button style
 .btn-default() {
-  .button-variant-other(@btn-default-color; @btn-default-bg; @btn-default-border);
+  .button-varivsi-other(@btn-default-color; @btn-default-bg; @btn-default-border);
   &:hover,
   &:focus,
   &:active,
@@ -169,12 +169,12 @@
 
 // ghost button style
 .btn-ghost() {
-  .button-variant-other(@btn-ghost-color, @btn-ghost-bg, @btn-ghost-border);
+  .button-varivsi-other(@btn-ghost-color, @btn-ghost-bg, @btn-ghost-border);
 }
 
 // ghost button style
 .btn-dashed() {
-  .button-variant-other(@btn-ghost-color, @btn-ghost-bg, @btn-ghost-border);
+  .button-varivsi-other(@btn-ghost-color, @btn-ghost-bg, @btn-ghost-border);
   border-style: dashed;
 }
 

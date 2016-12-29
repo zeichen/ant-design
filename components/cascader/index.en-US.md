@@ -50,7 +50,7 @@ Fields in `showSearch`:
 | matchInputWidth | Whether the width of result list equals to input's | boolean | |
 
 <style>
-.ant-cascader-picker {
+.vsi-cascader-picker {
   width: 220px;
 }
 </style>

@@ -45,7 +45,7 @@ class Footer extends React.Component {
       title: messages['app.publish.title'],
       content: (
         <div>
-          <img src="https://os.alipayobjects.com/rmsportal/nyqBompsynAQCpJ.svg" alt="Ant Design" />
+          <img src="https://os.alipayobjects.com/rmsportal/nyqBompsynAQCpJ.svg" alt="Vsi Design" />
           <p>
             {messages['app.publish.greeting']}
             <a target="_blank" rel="noopener noreferrer" href="/changelog">antd@2.0.0</a>
@@ -97,7 +97,7 @@ class Footer extends React.Component {
           <li>
             <h2><FormattedMessage id="app.footer.links" /></h2>
             <div>
-              <a href="http://mobile.ant.design">Ant Design Mobile</a>
+              <a href="http://mobile.ant.design">Vsi Design Mobile</a>
               <span> - </span>
               <FormattedMessage id="app.footer.mobile" />
             </div>

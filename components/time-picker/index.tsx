@@ -42,7 +42,7 @@ export interface TimePickerContext {
 
 export default class TimePicker extends React.Component<TimePickerProps, any> {
   static defaultProps = {
-    prefixCls: 'ant-time-picker',
+    prefixCls: 'vsi-time-picker',
     align: {
       offset: [0, -2],
     },

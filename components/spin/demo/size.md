@@ -1,6 +1,6 @@
 ---
 order: 1
-title: 
+title:
   zh-CN: 各种大小
   en-US: Size
 ---
@@ -26,7 +26,7 @@ ReactDOM.render(
 ````
 
 <style>
-.ant-spin {
+.vsi-spin {
   margin-right: 16px;
 }
 </style>

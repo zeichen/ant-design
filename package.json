@@ -1,11 +1,11 @@
 {
-  "name": "antd",
+  "name": "vsid",
   "version": "2.5.2",
-  "title": "Ant Design",
+  "title": "ViewSonic Design",
   "description": "An enterprise-class UI design language and React-based implementation",
-  "homepage": "http://ant.design/",
+  "homepage": "http://vsi.design/",
   "keywords": [
-    "ant",
+    "vsi",
     "design",
     "react",
     "react-component",
@@ -16,7 +16,7 @@
     "frontend"
   ],
   "contributors": [
-    "ant"
+    "vsi"
   ],
   "repository": {
     "type": "git",
@@ -68,6 +68,7 @@
     "rc-tree-select": "~1.8.0",
     "rc-upload": "~2.3.0",
     "rc-util": "^4.0.1",
+    "react-bluekit": "^0.3.1",
     "react-lazy-load": "^3.0.10",
     "react-slick": "~0.14.2",
     "shallowequal": "^0.2.2",
@@ -145,20 +146,17 @@
     "demolint": "RUN_ENV=DEMO eslint components/*/demo/*.md --ext '.md'",
     "lesshint": "lesshint components -r scripts/lesshint-report.js",
     "eslint-fix": "eslint --fix tests site scripts ./.eslintrc.js ./webpack.config.js --ext '.js,.jsx,.tsx' --ignore-pattern '!.eslintrc.js' && eslint-tinker ./components/*/demo/*.md",
-
     "jest": "jest",
     "jest:node": "jest --config .jest.node.json",
-
     "clean": "antd-tools run clean",
     "dist": "antd-tools run dist && node ./tests/dekko/dist.test.js",
     "compile": "antd-tools run compile && node ./tests/dekko/lib.test.js",
-
     "start": "bisheng start -c ./site/bisheng.config.js --no-livereload",
+    "reload": "bisheng start -c ./site/bisheng.config.js",
     "babel-site": "babel ./site/theme/template --out-dir ./site/theme/template",
     "clean-site": "rm site/theme/template/**/*.js site/theme/template/*.js",
     "site": "npm run babel-site && bisheng build --ssr -c ./site/bisheng.config.js && npm run clean-site",
     "deploy": "npm run clean && npm run site && bisheng gh-pages --push-only",
-
     "pub": "antd-tools run update-self && antd-tools run pub",
     "prepublish": "antd-tools run guard",
     "pre-publish": "node ./scripts/prepub",

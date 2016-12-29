@@ -23,11 +23,11 @@ return <LocaleProvider locale={enUS}><App /></LocaleProvider>;
 
 ### Add a language
 
-We supply an English locale package. Other language users can create a locale package based on [en_US](https://github.com/ant-design/ant-design/blob/26b1f37392a278285aec6c573b99c6feea09e218/components/locale-provider/en_US.js) and send us a pull request.
+We supply an English locale package. Other language users can create a locale package based on [en_US](https://github.com/vsi-design/vsi-design/blob/26b1f37392a278285aec6c573b99c6feea09e218/components/locale-provider/en_US.js) and send us a pull request.
 
 ### 其他国际化需求
 
-本模块仅用于组件的内建文案，若有业务文案的国际化需求，建议使用 [react-intl](https://github.com/yahoo/react-intl)，可参考示例：[Intl demo 1](http://github.com/ant-design/intl-example) 和 [Intl demo 2](http://yiminghe.me/learning-react/examples/react-intl.html?locale=en-US)。
+本模块仅用于组件的内建文案，若有业务文案的国际化需求，建议使用 [react-intl](https://github.com/yahoo/react-intl)，可参考示例：[Intl demo 1](http://github.com/vsi-design/intl-example) 和 [Intl demo 2](http://yiminghe.me/learning-react/examples/react-intl.html?locale=en-US)。
 
 ## API
 

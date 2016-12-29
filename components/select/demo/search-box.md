@@ -77,16 +77,16 @@ const SearchInput = React.createClass({
   },
   render() {
     const btnCls = classNames({
-      'ant-search-btn': true,
-      'ant-search-btn-noempty': !!this.state.value.trim(),
+      'vsi-search-btn': true,
+      'vsi-search-btn-noempty': !!this.state.value.trim(),
     });
     const searchCls = classNames({
-      'ant-search-input': true,
-      'ant-search-input-focus': this.state.focus,
+      'vsi-search-input': true,
+      'vsi-search-input-focus': this.state.focus,
     });
     const options = this.state.data.map(d => <Option key={d.value}>{d.text}</Option>);
     return (
-      <div className="ant-search-input-wrapper" style={this.props.style}>
+      <div className="vsi-search-input-wrapper" style={this.props.style}>
         <Input.Group className={searchCls}>
           <Select
             combobox
@@ -102,7 +102,7 @@ const SearchInput = React.createClass({
           >
             {options}
           </Select>
-          <div className="ant-input-group-wrap">
+          <div className="vsi-input-group-wrap">
             <Button className={btnCls} onClick={this.handleSubmit}>
               <Icon type="search" />
             </Button>

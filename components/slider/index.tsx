@@ -29,8 +29,8 @@ export interface SliderProps {
 
 export default class Slider extends React.Component<SliderProps, any> {
   static defaultProps = {
-    prefixCls: 'ant-slider',
-    tooltipPrefixCls: 'ant-tooltip',
+    prefixCls: 'vsi-slider',
+    tooltipPrefixCls: 'vsi-tooltip',
     tipTransitionName: 'zoom-down',
   };
 

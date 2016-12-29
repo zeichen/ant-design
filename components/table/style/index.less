@@ -1,7 +1,7 @@
 @import "../../style/themes/default";
 @import "../../style/mixins/index";
 
-@table-prefix-cls: ~"@{ant-prefix}-table";
+@table-prefix-cls: ~"@{vsi-prefix}-table";
 @table-head-background-color: @background-color-base;
 
 .@{table-prefix-cls} {
@@ -346,7 +346,7 @@
     border-radius: @border-radius-base;
     box-shadow: @box-shadow-base;
 
-    .@{ant-prefix}-dropdown-menu {
+    .@{vsi-prefix}-dropdown-menu {
       border: 0;
       box-shadow: none;
       border-radius: @border-radius-base @border-radius-base 0 0;
@@ -360,8 +360,8 @@
         box-shadow: @box-shadow-base;
       }
 
-      .@{ant-prefix}-dropdown-submenu-contain-selected {
-        .@{ant-prefix}-dropdown-menu-submenu-title:after {
+      .@{vsi-prefix}-dropdown-submenu-contain-selected {
+        .@{vsi-prefix}-dropdown-menu-submenu-title:after {
           color: @primary-color;
           font-weight: bold;
           text-shadow: 0 0 2px tint(@primary-color, 80%);
@@ -369,12 +369,12 @@
       }
     }
 
-    .@{ant-prefix}-dropdown-menu-item {
+    .@{vsi-prefix}-dropdown-menu-item {
       overflow: hidden;
     }
 
-    > .@{ant-prefix}-dropdown-menu > .@{ant-prefix}-dropdown-menu-item:last-child,
-    > .@{ant-prefix}-dropdown-menu > .@{ant-prefix}-dropdown-menu-submenu:last-child .@{ant-prefix}-dropdown-menu-submenu-title {
+    > .@{vsi-prefix}-dropdown-menu > .@{vsi-prefix}-dropdown-menu-item:last-child,
+    > .@{vsi-prefix}-dropdown-menu > .@{vsi-prefix}-dropdown-menu-submenu:last-child .@{vsi-prefix}-dropdown-menu-submenu-title {
       border-radius: 0;
     }
 
@@ -532,7 +532,7 @@
       border-radius: 0 @border-radius-base 0 0;
     }
     // hide expand row content in right-fixed Table
-    // https://github.com/ant-design/ant-design/issues/1898
+    // https://github.com/vsi-design/vsi-design/issues/1898
     .@{table-prefix-cls}-expanded-row {
       color: transparent;
       pointer-events: none;

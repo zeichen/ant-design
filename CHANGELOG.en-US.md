@@ -387,7 +387,7 @@ The following change will throw some warnings in the console and it will still w
 
 ### 2.x Workflow
 
-* [AntD Library](http://library.ant.design/) a collection of Axure files which includes components and patterns that follow Ant Design Specification.
+* [AntD Library](http://library.ant.design/) a collection of Axure files which includes components and patterns that follow Vsi Design Specification.
 * Rename `babel-plugin-antd` to [`babel-plugin-import`](https://github.com/ant-design/babel-plugin-import), and this means that `babel-plugin-import` becomes an common load-on-demand solution and not just for `antd`.
 
   Please update `package.json`:

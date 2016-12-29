@@ -57,7 +57,7 @@ The properties of the object are follows:
 | cancelText | Text of cancel button    | String           | Cancel       |
 
 <style>
-.code-box-demo .ant-btn {
+.code-box-demo .vsi-btn {
   margin-right: 8px;
 }
 </style>

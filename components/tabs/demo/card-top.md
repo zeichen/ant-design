@@ -1,6 +1,6 @@
 ---
 order: 10
-title: 
+title:
   zh-CN: 卡片式页签容器
   en-US: Container of card type Tab
 ---
@@ -35,21 +35,21 @@ ReactDOM.render(
   padding: 24px;
 }
 
-.card-container > .ant-tabs-card > .ant-tabs-content {
+.card-container > .vsi-tabs-card > .vsi-tabs-content {
   height: 120px;
   margin-top: -16px;
 }
 
-.card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+.card-container > .vsi-tabs-card > .vsi-tabs-content > .vsi-tabs-tabpane {
   background: #fff;
   padding: 16px;
 }
 
-.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+.card-container > .vsi-tabs-card > .vsi-tabs-bar .vsi-tabs-tab {
   border-color: transparent;
 }
 
-.card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+.card-container > .vsi-tabs-card > .vsi-tabs-bar .vsi-tabs-tab-active {
   border-color: #fff;
 }
 ````

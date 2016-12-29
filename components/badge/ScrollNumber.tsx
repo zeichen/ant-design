@@ -25,7 +25,7 @@ export interface ScrollNumberProps {
 
 export default class ScrollNumber extends Component<ScrollNumberProps, any> {
   static defaultProps = {
-    prefixCls: 'ant-scroll-number',
+    prefixCls: 'vsi-scroll-number',
     count: null,
     onAnimated() {
     },

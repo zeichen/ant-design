@@ -3,14 +3,14 @@ order: 0
 title: Download
 ---
 
-Please find below some of the design resources and tools about Ant Design that we consider valuable. More of this is still being collected.
+Please find below some of the design resources and tools about Vsi Design that we consider valuable. More of this is still being collected.
 
 <div class="resource-cards">
 <a target="_blank" href="http://library.ant.design" class="resource-card">
   <img src="https://zos.alipayobjects.com/rmsportal/qXrCHrsuyrINSeerFOerLcTTFZiEzHAJ.png">
   <span class="resource-card-content">
-    <span class="resource-card-title">Ant Design Library v2.0.1</span>
-    <span class="resource-card-description">A powerful Axure library of Ant Design</span>
+    <span class="resource-card-title">Vsi Design Library v2.0.1</span>
+    <span class="resource-card-description">A powerful Axure library of Vsi Design</span>
   </span>
 </a>
 <a target="_blank" href="https://github.com/ant-design/ant-design/releases/download/resource/Ant.Design.Template.v1.1.sketch" class="resource-card">

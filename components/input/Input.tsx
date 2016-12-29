@@ -60,7 +60,7 @@ export default class Input extends Component<InputProps, any> {
   static Search: any;
   static defaultProps = {
     disabled: false,
-    prefixCls: 'ant-input',
+    prefixCls: 'vsi-input',
     type: 'text',
     autosize: false,
   };

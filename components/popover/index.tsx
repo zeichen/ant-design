@@ -11,7 +11,7 @@ export interface PopoverProps extends AbstractTooltipProps {
 
 export default class Popover extends React.Component<PopoverProps, any> {
   static defaultProps = {
-    prefixCls: 'ant-popover',
+    prefixCls: 'vsi-popover',
     placement: 'top',
     transitionName: 'zoom-big',
     trigger: 'hover',

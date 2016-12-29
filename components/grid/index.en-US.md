@@ -10,55 +10,55 @@ title: Grid
 ## Design concept
 
 <div class="grid-demo">
-<div class="ant-row demo-row">
-  <div class="ant-col-24 demo-col demo-col-1">
+<div class="vsi-row demo-row">
+  <div class="vsi-col-24 demo-col demo-col-1">
     100%
   </div>
 </div>
-<div class="ant-row demo-row">
-  <div class="ant-col-6 demo-col demo-col-2">
+<div class="vsi-row demo-row">
+  <div class="vsi-col-6 demo-col demo-col-2">
     25%
   </div>
-  <div class="ant-col-6 demo-col demo-col-3">
+  <div class="vsi-col-6 demo-col demo-col-3">
     25%
   </div>
-  <div class="ant-col-6 demo-col demo-col-2">
+  <div class="vsi-col-6 demo-col demo-col-2">
     25%
   </div>
-  <div class="ant-col-6 demo-col demo-col-3">
+  <div class="vsi-col-6 demo-col demo-col-3">
     25%
   </div>
 </div>
-<div class="ant-row demo-row">
-  <div class="ant-col-8 demo-col demo-col-4">
+<div class="vsi-row demo-row">
+  <div class="vsi-col-8 demo-col demo-col-4">
     33.33%
   </div>
-  <div class="ant-col-8 demo-col demo-col-5">
+  <div class="vsi-col-8 demo-col demo-col-5">
     33.33%
   </div>
-  <div class="ant-col-8 demo-col demo-col-4">
+  <div class="vsi-col-8 demo-col demo-col-4">
     33.33%
   </div>
 </div>
-<div class="ant-row demo-row">
-  <div class="ant-col-12 demo-col demo-col-1">
+<div class="vsi-row demo-row">
+  <div class="vsi-col-12 demo-col demo-col-1">
     50%
   </div>
-  <div class="ant-col-12 demo-col demo-col-3">
+  <div class="vsi-col-12 demo-col demo-col-3">
     50%
   </div>
 </div>
-<div class="ant-row demo-row">
-  <div class="ant-col-16 demo-col demo-col-4">
+<div class="vsi-row demo-row">
+  <div class="vsi-col-16 demo-col demo-col-4">
     66.66%
   </div>
-  <div class="ant-col-8 demo-col demo-col-5">
+  <div class="vsi-col-8 demo-col demo-col-5">
     33.33%
   </div>
 </div>
 </div>
 
-In most business situations,Ant Design need solve a lot of information storage problems within the design area,so based on 12 Grids System,we divided the design area into 24 aliquots.
+In most business situations,Vsi Design need solve a lot of information storage problems within the design area,so based on 12 Grids System,we divided the design area into 24 aliquots.
 
 We name the divided area as 'box'.We suggest that four boxes horizontal arrangement at most, one at least.Box on the proportion of the entire screen as above picture.To ensure that the level of visual comfort,we custom typography inside of the box based on the box unit.
 
@@ -81,7 +81,7 @@ Flex layout is based on a grid 24 to define each "box" in width, but not rigidly
 
 ## API
 
-Ant Design layout component if it can not meet your needs, you can use the excellent layout of the components of the community:
+Vsi Design layout component if it can not meet your needs, you can use the excellent layout of the components of the community:
 
 - [react-flexbox-grid](http://roylee0704.github.io/react-flexbox-grid/)
 - [react-blocks](http://whoisandie.github.io/react-blocks/)

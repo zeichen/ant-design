@@ -103,7 +103,7 @@ ReactDOM.render(
         </FormItem>
       </Col>
       <Col span="1">
-        <p className="ant-form-split">-</p>
+        <p className="vsi-form-split">-</p>
       </Col>
       <Col span="6">
         <FormItem>
